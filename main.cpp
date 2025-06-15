@@ -6,7 +6,7 @@ int suma(int a, int b) {
     return a + b;
 }
 int division(int a, int b) {
-    return a / 0;  // ERROR
+    return b != 0 ? a / b : 0;
 }
 
 int main() {
