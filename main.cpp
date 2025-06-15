@@ -2,7 +2,11 @@
 
 using namespace std;
 
-int main() {
+float raiz(int a) {
+    return sqrt(a);
+}
 
+int main() {
+      cout << "Raíz: " << raiz(9) << endl;
     return 0;
 }
