@@ -23,7 +23,7 @@ int main()
 {
     cout << "Suma: " << suma(4, 2) << endl;
     cout << "resta: " << resta(4, 2) << endl;
-    cout << "División: " << division(4, 2) << endl;
+    cout << "DivisiÃ³n: " << division(4, 2) << endl;
     cout << "Modulo: " << modulo(4, 2) << endl;
 
     return 0;
