@@ -1,8 +1,4 @@
-#include <iostream>
-
-using namespace std;
-
-int main() {
-
-    return 0;
+#include <cmath>
+int potencia(int a, int b) {
+    return pow(a, b);
 }
