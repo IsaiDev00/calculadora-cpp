@@ -9,7 +9,11 @@ int suma(int a, int b)
 }
 int resta(int a, int b)
 {
-    return a - b:
+    return a - b;
+}
+int multiplication(int a, int b)
+{
+    return a * b;
 }
 int division(int a, int b)
 {
@@ -36,6 +40,7 @@ int main()
     cout << "División: " << division(4, 2) << endl;
     cout << "Raíz: " << raiz(9) << endl;
     cout << "Modulo: " << modulo(4, 2) << endl;
+    cout << "Multiplicación: " << multiplication(4, 2) << endl;
 
     return 0;
 }
